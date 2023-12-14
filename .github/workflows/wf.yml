@@ -14,9 +14,8 @@ jobs:
       with:
         python-version: '3.8'
         
-    - name: Set up Pandas
-    - run: pip install pandas
+    - name: Set up Pandas & Numpy
+      run:  pip install pandas numpy 
+           
 
-    - name: Set up Numpy
-    - run: pip install numpy
     
