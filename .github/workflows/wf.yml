@@ -13,3 +13,10 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.8'
+        
+    - name: Set up Pandas
+    - run: pip install pandas
+
+    - name: Set up Numpy
+    - run: pip install numpy
+    
