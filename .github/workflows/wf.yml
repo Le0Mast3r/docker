@@ -14,8 +14,12 @@ jobs:
       with:
         python-version: '3.8'
         
-    - name: Set up Pandas & Numpy
-      run:  pip install pandas numpy 
-           
+
+    -name: Appeler le fichier requirement
+      run: pip install -r requirement.txt
+
+    - name: executer le code python
+      run: python app.py
+
 
     
